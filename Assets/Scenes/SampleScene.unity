@@ -790,8 +790,9 @@ GameObject:
   - component: {fileID: 1783251351}
   - component: {fileID: 1783251350}
   - component: {fileID: 1783251349}
+  - component: {fileID: 1783251354}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Cylinder Piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,6 +916,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1783251354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783251348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48cdf605db614f145af40cd97082736f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1821227182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,6 +1050,7 @@ GameObject:
   - component: {fileID: 1912759949}
   - component: {fileID: 1912759948}
   - component: {fileID: 1912759947}
+  - component: {fileID: 1912759952}
   m_Layer: 0
   m_Name: Square Piece
   m_TagString: Untagged
@@ -1160,6 +1174,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1912759952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912759946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b050a36f9883ef44a8b35879cf5ef69a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1962411308
 GameObject:
   m_ObjectHideFlags: 0
